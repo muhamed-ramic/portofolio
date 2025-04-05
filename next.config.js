@@ -20,7 +20,7 @@ module.exports = {
         protocol: 'https',
         hostname: 'media2.dev.to',
         pathname: '**',
-      },
-    ],
-  },
+      }
+    ]
+  }
 }
