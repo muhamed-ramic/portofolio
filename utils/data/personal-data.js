@@ -8,7 +8,7 @@ export const personalData = {
   address: 'Bugojno, 70230',
   github: 'https://github.com/muhamed-ramic',
   facebook: '#',
-  linkedIn: 'https://ba.linkedin.com/in/muhamed-ramic-815191126',
+  linkedIn: 'https://ba.linkedin.com/in/muhamed-r-815191126',
   twitter: '#',
   stackOverflow: '#',
   leetcode: "#",
