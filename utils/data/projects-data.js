@@ -11,13 +11,13 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'Cadence NFT project starter kit',
-        description: 'Implementing component based HTML webpages, with the collaboration of a designer. Used Figma, Sketch files to create a pixel perfect HTML pages',
+        name: 'Web site for brand new mechanical engineering team',
+        description: 'Implementing Website for need of chargENG team, young team of mechanical engineers, designed and developed in NextJS',
         tools: ['React', 'MaterialUI', 'NextJS'],
-        code: 'https://cadence-react-app.netlify.app/',
+        code: 'https://chargeng.netlify.app/#lang',
         tags: [],
         role: 'Fronted Developer',
-        demo: 'https://www.bookforest.io/',
+        demo: 'https://chargeng.netlify.app/#lang',
     },
     {
         id: 4,
