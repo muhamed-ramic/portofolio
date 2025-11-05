@@ -21,13 +21,23 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Magnesium WebApp',
-        description: 'Web app leveraged using Flutter & Flutterflow that provides dynamic form building (using fields, elements) and ChatBot Assistant to help in creating forms, fields.',
-        tools: ['Flutter', 'Flutterflow', 'Dart', 'RestAPI', 'LLM-agent', 'ChatGPT'],
-        code: 'https://magnesium-kn2h0c.flutterflow.app/successScreen',
+        name: 'Cadence NFT Project Starter Kit',
+        description: 'Web landing page developed using ReactJs, NextJS, StyledComponents',
+        tools: ['React', 'NextJS', 'StyledComponents'],
+        code: 'https://cadence-react-app.netlify.app/',
         tags: [],
         role: 'Fronted Developer',
-        demo: 'https://magnesium-kn2h0c.flutterflow.app/successScreen',
+        demo: 'https://cadence-react-app.netlify.app/',
+    },
+    {
+        id: 2,
+        name: "React/Redux Top 10 Movies Show",
+        description: "Implementing component based React site with a usage of Redux context. Site includes Top 10 Movies show by Filters, Searching,...",
+        tools: ['React', 'Redux',],
+        role: 'Fronted Developer',
+        tags: [],
+        code: 'http://null-appliance.surge.sh/',
+        demo: 'http://null-appliance.surge.sh/',
     },
 ];
 
