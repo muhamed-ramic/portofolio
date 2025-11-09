@@ -10,14 +10,24 @@ export const projectsData = [
         demo: 'https://z1bc.netlify.app/',
     },
     {
-        id: 3,
-        name: 'Web site for brand new mechanical engineering team',
-        description: 'Implementing Website for need of chargENG team, young team of mechanical engineers, designed and developed in NextJS',
-        tools: ['React', 'MaterialUI', 'NextJS'],
-        code: 'https://chargeng.netlify.app/#lang',
-        tags: [],
+        id: 5,
+        name: "Memory game",
+        description: "Implementing memory game that we all loved in plain Vanila JS.",
+        tools: ['HTML', 'CSS', 'JS'],
         role: 'Fronted Developer',
-        demo: 'https://chargeng.netlify.app/#lang',
+        tags: [],
+        code: 'https://muhamed-ramic.github.io/',
+        demo: 'https://muhamed-ramic.github.io',
+    },
+    {
+        id: 6,
+        name: "React/Redux Top 10 Movies Show",
+        description: "Implementing component based React site with a usage of Redux context. Site includes Top 10 Movies show by Filters, Searching,...",
+        tools: ['React', 'Redux',],
+        role: 'Fronted Developer',
+        tags: [],
+        code: 'http://null-appliance.surge.sh/',
+        demo: 'http://null-appliance.surge.sh/',
     },
     {
         id: 4,
@@ -29,16 +39,18 @@ export const projectsData = [
         role: 'Fronted Developer',
         demo: 'https://cadence-react-app.netlify.app/',
     },
+    
     {
-        id: 2,
-        name: "React/Redux Top 10 Movies Show",
-        description: "Implementing component based React site with a usage of Redux context. Site includes Top 10 Movies show by Filters, Searching,...",
-        tools: ['React', 'Redux',],
-        role: 'Fronted Developer',
+        id: 3,
+        name: 'Web site for brand new mechanical engineering team',
+        description: 'Implementing Website for need of chargENG team, young team of mechanical engineers, designed and developed in NextJS',
+        tools: ['React', 'MaterialUI', 'NextJS'],
+        code: 'https://chargeng.netlify.app/#lang',
         tags: [],
-        code: 'http://null-appliance.surge.sh/',
-        demo: 'http://null-appliance.surge.sh/',
+        role: 'Fronted Developer',
+        demo: 'https://chargeng.netlify.app/#lang',
     },
+
 ];
 
 
