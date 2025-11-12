@@ -2,9 +2,35 @@
 
 "use client";
 
+import { useRef } from "react";
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
+import { Canvas, useFrame} from "@react-three/fiber";
+import * as THREE from "three";
+import { useTexture } from '@react-three/drei'
 
+
+const ImageCube = () => {
+  const meshRef = useRef();
+  const textures = useTexture(
+    ["/profile.jpg", "/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg"]);
+
+  useFrame(() => {
+    if (meshRef.current) {
+      meshRef.current.rotation.x+= 0.01;
+      meshRef.current.rotation.y+= 0.01;
+      meshRef.current.rotation.z+= 0.01;
+    }
+  });
+
+  const materials = textures.map(texture => new THREE.MeshBasicMaterial({ map: texture }));
+
+  return (
+    <mesh ref={meshRef} material={materials}>
+      <boxGeometry args={[5, 5, 5]} />
+    </mesh>
+  );
+};
 
 function AboutSection() {
   return (
@@ -24,18 +50,18 @@ function AboutSection() {
             {personalData.description}
           </p>
         </div>
+
         <div className="flex justify-center order-1 lg:order-2">
-          <Image
-            src={personalData.profile}
-            width={280}
-            height={280}
-            alt="MR"
-            className="rounded-lg transition-all duration-1000 hover:grayscale-0 hover:scale-110 cursor-pointer"
-          />
+          <Canvas style={{ width: "300px", height: "300px" }}>
+            <ambientLight intensity={0.5} />
+            <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+            <pointLight position={[-10, -10, -10]} />
+            <ImageCube />
+          </Canvas>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default AboutSection;
