@@ -1,7 +1,7 @@
 export const projectsData = [
     {
         id: 2,
-        name: 'Z1bc organisation landingpage',
+        name: 'Z1bc organisation landing page',
         description: 'Implementing component based HTML webpages, with the collaboration of a designer. Used Figma, Sketch files to create a pixel perfect HTML pages',
         tools: ['React', 'MaterialUI', 'NextJS'],
         role: 'Frontend Developer',
@@ -42,9 +42,9 @@ export const projectsData = [
     
     {
         id: 3,
-        name: 'Web site for brand new mechanical engineering team',
-        description: 'Implementing Website for need of chargENG team, young team of mechanical engineers, designed and developed in NextJS',
-        tools: ['React', 'MaterialUI', 'NextJS'],
+        name: 'Web app for brand new mechanical engineering team',
+        description: 'Implemented web app for need of chargENG team, young team of mechanical engineers, designed and developed in NextJS + Strapi CMS',
+        tools: ['React', 'MaterialUI', 'NextJS','Strapi CMS'],
         code: 'https://chargeng.netlify.app/#lang',
         tags: [],
         role: 'Fronted Developer',
