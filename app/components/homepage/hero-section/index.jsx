@@ -157,6 +157,9 @@ function HeroSection() {
           </div>
         </div>
       </div>
+      <div className="flex items-center gap-5">
+        <Image width={300} height={300} src={"/web-designer.gif"} alt="Web designer gif"/>
+      </div>
     </section>
   );
 };
