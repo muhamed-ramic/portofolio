@@ -21,13 +21,13 @@ export const projectsData = [
     },
     {
         id: 6,
-        name: "React/Redux Top 10 Movies Show",
-        description: "Implementing component based React site with a usage of Redux context. Site includes Top 10 Movies show by Filters, Searching,...",
-        tools: ['React', 'Redux',],
+        name: "3d web app using React three js, Fiber, Firestore",
+        description: "3D Model Viewer with React Three Fiber, Next.js, and Firebase This project demonstrates how to load, position, rotate, and persist 3D models using React Three Fiber, Next.js, and Google's Firebase Firestore as a backend database. It features dynamic switching between a 3D perspective view and a 2D top-down (orthographic) view. ",
+        tools: ['React', 'ThreeJS', 'Fiber', 'Firestore'],
         role: 'Fronted Developer',
         tags: [],
-        code: 'http://null-appliance.surge.sh/',
-        demo: 'http://null-appliance.surge.sh/',
+        code: 'https://3d-model-viewer.netlify.app/',
+        demo: 'https://3d-model-viewer.netlify.app/',
     },
     {
         id: 4,
