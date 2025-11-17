@@ -26,8 +26,8 @@ export const projectsData = [
         tools: ['React', 'ThreeJS', 'Fiber', 'Firestore'],
         role: 'Fronted Developer',
         tags: [],
-        code: 'https://3d-model-viewer.netlify.app/',
-        demo: 'https://3d-model-viewer.netlify.app/',
+        code: 'https://3d-web-app.netlify.app/',
+        demo: 'https://3d-web-app.netlify.app/',
     },
     {
         id: 4,
