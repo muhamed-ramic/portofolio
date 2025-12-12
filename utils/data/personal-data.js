@@ -9,6 +9,8 @@ export const personalData = {
   github: 'https://github.com/muhamed-ramic',
   facebook: '#',
   linkedIn: 'https://ba.linkedin.com/in/muhamed-r-815191126',
+  freecodecamp: 'https://www.freecodecamp.org/muhamed_ramic',
+  docker: 'https://hub.docker.com/u/muhamedr123',
   twitter: '#',
   stackOverflow: '#',
   leetcode: "#",
